@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <main className="container mx-auto p-8 bg-gray-100 min-h-screen">
       <h1 className="text-4xl font-bold mb-8 text-center text-gray-800">
-        Cloudinary File Manager
+        File Manager
       </h1>
       <div className="bg-white rounded-lg shadow-lg p-6">
         <UploadForm onUploadComplete={handleUploadComplete} />
